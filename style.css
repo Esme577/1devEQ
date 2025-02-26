@@ -65,20 +65,34 @@ body {
 }
 .row {
     display: flex;
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 130px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+
   }
   
 .column {
-    flex: 33.33%;
-    padding: 150px;
-    width: 120;
-    height: 120;
+    flex: 1;
+    padding: 15px;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    text-align: center;
   }
   .Projects{
     text-align: center;
     font-size: 40;
-    font-style: Cursive ;
+    font-style: cursive ;
+
+
 }
 
 .contactinfo{
