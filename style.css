@@ -8,7 +8,7 @@ h1{
 }
 .navbar ul {
     list-style-type:none;
-    background-color: #6D7CB9;
+    background-color: #BBEEFD;
     padding: 0px;
     margin:0px;
     overflow:hidden;    
@@ -34,7 +34,7 @@ main{
 }
 
 body {
-    background-color: #B96D7C;
+    background-color: #C5D7DD;
 }
 
 .Introtoname{
@@ -108,9 +108,11 @@ body {
     font-size: 20px;
     color: black;
     display:flex;
+    padding: 15px;
 }
 .ContactAnswer{
     text-align: center;
     font-size: 20px;
-    color:white
+    color: black
+    padding: 10px;
 }
